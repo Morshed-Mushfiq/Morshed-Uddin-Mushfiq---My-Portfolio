@@ -56,9 +56,9 @@
                 <p>I am a Web Designer & Digital Marketer.</p>
                 <p>I have been working on Web designing & Digital Marketing Since 2 years.</p>
                 <p>I have 2 Years Experience of web designing and digital marketing.</p>
-               <a class="btn btn-outline-danger text-white mb-2" id="btnn" data-bs-toggle="collapse" href="#otherContents" role="button" aria-expanded="false" aria-controls="otherContents">Read More</a>
+               <a class="btn btn-outline-danger text-white mb-2" id="btnn">Read More</a>
 
-               <div class="collapse bg-dark p-3 mb-3" id="otherContents">
+               <div class="bg-dark p-3 mb-3" id="otherContents">
                 <p>I worked As a Digital marketer at Morshed Mushfiq. And also I designed Huge amount of websites templates Like Portfolio, Resturant, Caffe, Hotel, Cosmetical, Departmental Store Websites.Actually I Learn Web Designing & Digital Marketing From Pixel IT And IT Vision. Both are Situated in Bangladesh. When My Course Was Complete, Then I Get Certificate For These Course Complication. But Unfortunatly, I don't Have Digital Marketing Course Certificate Which Was Given By IT Vision. But I have a Certificate From IIDE(Indian Institute of Digital Education) For Attending An Online MasterClass.</p>
                 <p>I am Really Blessed To Working With You About Designing a Website of Your Store, Or Your Business Related, Also I will Provide me As a Promoter For Incresing The Number Of Customer For Your Business.</p>
                 <p>Thank You Very Much For Visiting My Portfolio Website.</p>
@@ -92,10 +92,14 @@
     <script src="./assets/JS/jquery-3.6.0.min.js"></script>
      
     <script>
-        $('#btnn').click(function(){
-        $('#otherContents').toggle(1000);
+        $('#otherContents').hide(function(){
+          $('#btnn').click(function(){
+          $('#otherContents').fadeToggle(1000);
 
         });
+
+        });
+
 
 
     </script>

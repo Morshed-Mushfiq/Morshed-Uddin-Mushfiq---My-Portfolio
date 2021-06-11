@@ -3,14 +3,18 @@
     font-family: 'Roboto_Condensed';
     overflow-x: hidden;
 }
+html {
+    scroll-behavior: smooth;
+}
+
 
 .navbar {
     position: fixed;
-    top: 0px;
-    right: 0px;
+    top: -5px;
     left: 0px;
-    z-index: 10000;
+    right: 0px;
 }
+
 
 
 .nav-logo img {
@@ -41,7 +45,6 @@ a:hover {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    height: 100vh;
     background-color: rgb(65, 179, 163);
 }
 
