@@ -13,8 +13,8 @@ html {
     top: -5px;
     left: 0px;
     right: 0px;
+    z-index: 1000;
 }
-
 
 
 .nav-logo img {
@@ -46,6 +46,7 @@ a:hover {
     justify-content: center;
     align-items: center;
     background-color: rgb(65, 179, 163);
+    margin-top: 78px;
 }
 
 .al button {
@@ -142,3 +143,11 @@ footer p {
     width: 95%;
 }
 
+
+.services {
+    margin-top: 150px;
+}
+
+.container {
+    margin-top: 120px;
+}
